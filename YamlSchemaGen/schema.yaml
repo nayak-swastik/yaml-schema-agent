@@ -1,0 +1,19 @@
+CAR:
+  make: !STRING {minLength: 4}
+  year: 2022
+  age: 1
+  sample:
+    - hello
+    - foo: bar
+  is_insured: True
+  weight: 300.52
+  has_turbo:
+
+CAR2:
+  make: !STRING {minLength: 4}
+  year: !NUMBER {"minimum": 2000, "maximum": 3000}
+  age: !INTEGER {"minimum": 0}
+  sample: !ARRAY
+  is_insured: True
+  weight: !NUMBER
+  has_turbo:

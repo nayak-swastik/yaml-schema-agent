@@ -1,0 +1,10 @@
+CAR:
+  make: Toyota
+  year: 2022
+  age: 1
+  sample:
+    - hello
+    - foo: bar
+  is_insured: True
+  weight: 300.52
+  has_turbo:
