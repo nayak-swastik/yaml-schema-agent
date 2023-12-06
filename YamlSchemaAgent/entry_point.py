@@ -1,7 +1,7 @@
 import argparse
 
-from YamlSchema import generate
-from YamlSchema.tags_pkg import get_yaml
+from YamlSchemaAgent import generate
+from YamlSchemaAgent.tags_pkg import get_yaml
 from jsonschema.validators import validate
 
 
