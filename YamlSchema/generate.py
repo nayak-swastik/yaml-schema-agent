@@ -1,6 +1,6 @@
 import json
 
-from YamlSchemaGen import schema_types
+from YamlSchema import schema_types
 
 
 def decode_base_types(v):
