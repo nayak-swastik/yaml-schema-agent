@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='yaml-schema-agent',
-    version='0.2.0-alpha',
+    version='0.2.1-alpha',
     url='https://github.com/nayak-swastik/yaml-schema-agent',
     description='Project to Generate Schema from/to YAML and Also Validate',
     author='Swastik.Nayak',
