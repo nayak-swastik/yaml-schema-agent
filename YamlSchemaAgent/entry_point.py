@@ -14,9 +14,9 @@ def main():
     parser.add_argument('-v', '--validate', required=False, default=None)
     parser.add_argument('-g', '--generate_from', required=False, default=None)
     parser.add_argument('-o', '--output', required=False, default=None)
-    parser.add_argument('--verbose', required=False, action=argparse.BooleanOptionalAction)
-    parser.add_argument('--report_location', required=False, default=None)
-    parser.add_argument('--simple_report', required=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument('-vb', '--verbose', required=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument('-rl', '--report_location', required=False, default='reports')
+    parser.add_argument('-sr', '--simple_report', required=False, action=argparse.BooleanOptionalAction)
     args = parser.parse_args()
     logger = get_logger(
         verbose=args.verbose,
